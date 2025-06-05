@@ -1,0 +1,17 @@
+{
+  "name": "oracle-automation",
+  "version": "1.0.0",
+  "description": "Scripts d'automatisation pour Oracle Portfolio",
+  "main": "webhook.js",
+  "scripts": {
+    "start:webhook": "node webhook.js",
+    "start:monitoring": "node monitoring.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "firebase-admin": "^12.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
